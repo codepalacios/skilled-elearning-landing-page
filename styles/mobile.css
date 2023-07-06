@@ -1,0 +1,171 @@
+:root {
+  --dark-blue-gray: #666ca3;
+  --yankees-blue: #13183f;
+  --roman-silver: #83869a;
+  --sasquatch-socks: #f74780;
+  --carnation-pink: #ffa7c3;
+  --white: #ffffff;
+  --frosbite: #f02aa6;
+  --outrageous-orange: #ff6f48;
+  --ultramarine-blue: #4851ff;
+  --alice-blue: #f0f1ff;
+  --heading-xl: 3.5rem;
+  --heading-l: 2.5rem;
+  --heading-m: 2rem;
+  --heading-s: 1.5rem;
+  --body-m: 1.125rem;
+  --body-s: 1rem;
+  --16px: 1rem;
+  --18px: 1.125rem;
+  --20px: 1.25rem;
+  --22px: 1.375rem;
+  --24px: 1.5rem;
+  --26px: 1.625rem;
+  --32px: 2rem;
+  --35px: 2.1875rem;
+  --36px: 2.25rem;
+  --38px: 2.375rem;
+  --40px: 2.5rem;
+  --48px: 3rem;
+  --51px: 3.1875rem;
+  --56px: 3.5rem;
+  --80px: 5rem;
+  --89px: 5.5625rem;
+  --120px: 7.5rem;
+  --140px: 8.75rem;
+  --167px: 10.4375rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+a,
+img {
+  display: block;
+}
+
+body {
+  background: linear-gradient(180deg, var(--white) 0%, var(--alice-blue) 100%);
+}
+header {
+  margin: var(--16px) 16px 0;
+}
+.skilled {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skilled img {
+  width: var(--89px);
+}
+.anchor {
+  width: var(--140px);
+  height: var(--48px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yankees-blue);
+  border-radius: 28px;
+  color: var(--white);
+  text-decoration: none;
+  font-size: var(--body-s);
+  font-weight: 700;
+}
+
+main {
+  margin: var(--38px) 16px var(--80px);
+}
+.main__section-info h1 {
+  margin: 0;
+  color: var(--yankees-blue);
+  font-size: var(--heading-l);
+  font-weight: 800;
+  line-height: var(--51px);
+}
+.main__section-info p {
+  margin: var(--26px) 0 var(--24px);
+  color: var(--roman-silver);
+  font-size: var(--body-s);
+  font-weight: 500;
+  line-height: var(--26px);
+}
+.main__section-info .anchor {
+  width: var(--167px);
+  height: var(--56px);
+  border-radius: 31.5px;
+  background: linear-gradient(
+    180deg,
+    var(--outrageous-orange) 0%,
+    var(--frosbite) 100%
+  );
+}
+.main__section-info img {
+  width: 100%;
+  margin-top: var(--22px);
+}
+
+.main__section-courses {
+  display: grid;
+  gap: var(--40px);
+}
+.main__section-courses .main__section-courses-popular {
+  width: 100%;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    var(--outrageous-orange) 0%,
+    var(--frosbite) 100%
+  );
+  color: var(--white);
+  font-size: var(--heading-s);
+  font-weight: 800;
+  line-height: var(--32px);
+  padding: var(--24px) 29px var(--32px) 28px;
+  box-shadow: none;
+}
+.main__section-courses div {
+  height: auto;
+  border-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  padding: 0 29px var(--32px) 28px;
+}
+.main__section-courses img {
+  position: relative;
+  top: -24px;
+}
+.main__section-courses h2 {
+  font-size: var(--20px);
+  font-weight: 800;
+}
+.main__section-courses p {
+  color: var(--roman-silver);
+  font-size: var(--16px);
+  font-weight: 500;
+  line-height: var(--26px);
+  margin: var(--16px) 0 var(--24px);
+}
+.main__section-courses a {
+  color: var(--sasquatch-socks);
+  font-size: var(--18px);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+footer {
+  background: var(--yankees-blue);
+  padding: var(--36px) 16px;
+}
+footer a {
+  background: linear-gradient(
+    180deg,
+    var(--ultramarine-blue) 0%,
+    var(--frosbite) 100%
+  );
+}
