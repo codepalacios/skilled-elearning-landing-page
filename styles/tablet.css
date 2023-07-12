@@ -1,0 +1,63 @@
+@media (min-width: 680px) {
+  header {
+    margin: var(--24px) 40px 0;
+  }
+  
+  main {
+    margin: var(--99px) 40px var(--86px);
+  }
+  .main__section-info {
+    display: flex;
+    margin-bottom: var(--210px);
+  }
+  .main__section-info p {
+    margin: var(--25px) 0;
+  }
+  .main__section-info picture {
+    position: static;
+    width: 100%;
+  }
+  .main__section-info img {
+    position: absolute;
+    margin-top: 0;
+    width: 85%;
+    top: -60px;
+    left: 50%;
+  }
+  
+  .main__section-courses {
+    position: relative;
+    column-gap: 10px;
+    row-gap: var(--56px);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    z-index: 1;
+  }
+  .main__section-courses .main__section-courses-popular {
+    padding: var(--56px) 21px 0 32px;
+  }
+  .main__section-courses div {
+    padding: 0 22px var(--32px) 32px;
+  }
+  
+  footer {
+    padding: var(--36px) 40px;
+  }
+}
+
+@media (min-width: 880px) {
+  .main__section-info img {
+    width: 75%;
+    left: 55%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main__section-info img {
+    position: absolute;
+    margin-top: 0;
+    width: 70%;
+    top: -125px;
+    left: 60%;
+  }
+}
