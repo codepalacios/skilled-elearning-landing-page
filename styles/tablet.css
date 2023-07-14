@@ -2,7 +2,10 @@
   header {
     margin: var(--24px) 40px 0;
   }
-  
+  .anchor:hover {
+    background-color: var(--dark-blue-gray);
+  }
+
   main {
     margin: var(--99px) 40px var(--86px);
   }
@@ -24,7 +27,7 @@
     top: -60px;
     left: 50%;
   }
-  
+
   .main__section-courses {
     position: relative;
     column-gap: 10px;
@@ -39,7 +42,7 @@
   .main__section-courses div {
     padding: 0 22px var(--32px) 32px;
   }
-  
+
   footer {
     padding: var(--36px) 40px;
   }

@@ -23,6 +23,7 @@
   --25px: 1.5625rem;
   --26px: 1.625rem;
   --28px: 1.75rem;
+  --29px: 1.8125rem;
   --32px: 2rem;
   --35px: 2.1875rem;
   --36px: 2.25rem;
@@ -31,14 +32,23 @@
   --48px: 3rem;
   --51px: 3.1875rem;
   --56px: 3.5rem;
+  --63px: 3.9375rem;
+  --64px: 4rem;
+  --70px: 4.375rem;
   --80px: 5rem;
   --86px: 5.375rem;
   --89px: 5.5625rem;
   --99px: 6.1875rem;
+  --111px: 6.9375rem;
   --120px: 7.5rem;
   --140px: 8.75rem;
   --167px: 10.4375rem;
+  --172px: 10.75rem;
   --210px: 13.125rem;
+  --250px: 15.625rem;
+  --445px: 27.8125rem;
+  --457px: 28.5625rem;
+  --1110px: 69.375rem;
 }
 *,
 *::before,
@@ -81,6 +91,10 @@ header {
   text-decoration: none;
   font-size: var(--body-s);
   font-weight: 700;
+  z-index: 2;
+}
+.anchor:hover {
+  background-color: var(--dark-blue-gray);
 }
 
 main {
@@ -109,6 +123,14 @@ main {
     var(--outrageous-orange) 0%,
     var(--frosbite) 100%
   );
+}
+.main__section-info .anchor:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, var(--outrageous-orange) 0%, var(--frosbite) 100%);
 }
 .main__section-info img {
   width: 100%;
@@ -151,14 +173,17 @@ main {
 }
 .main__section-courses p {
   color: var(--roman-silver);
-  font-size: var(--16px);
+  font-size: var(--body-s);
   font-weight: 500;
   line-height: var(--26px);
   margin: var(--16px) 0 var(--24px);
 }
+.main__section-courses a:hover {
+  color: var(--carnation-pink);
+}
 .main__section-courses a {
   color: var(--sasquatch-socks);
-  font-size: var(--18px);
+  font-size: var(--body-s);
   font-weight: 700;
   text-decoration: none;
 }
@@ -167,10 +192,23 @@ footer {
   background: var(--yankees-blue);
   padding: var(--36px) 16px;
 }
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 footer a {
   background: linear-gradient(
     180deg,
     var(--ultramarine-blue) 0%,
     var(--frosbite) 100%
   );
+}
+footer a:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, var(--ultramarine-blue) 0%, var(--frosbite) 100%);
 }

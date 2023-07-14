@@ -1,0 +1,88 @@
+@media (min-width: 1150px) {
+  header {
+    margin: var(--24px) auto 0;
+    max-width: var(--1110px);
+  }
+  .skilled img {
+    width: var(--111px);
+  }
+  .anchor {
+    width: var(--167px);
+    height: var(--56px);
+    font-size: var(--body-m);
+  }
+  .anchor:hover {
+    background-color: var(--dark-blue-gray);
+  }
+
+  main {
+    margin: var(--172px) auto var(--140px);
+    max-width: var(--1110px);
+  }
+  .main__section-info {
+    margin-bottom: var(--250px);
+  }
+  .main__section-info h1 {
+    font-size: var(--heading-xl);
+    line-height: var(--70px);
+    max-width: var(--457px);
+  }
+  .main__section-info p {
+    margin: var(--29px) 0 var(--40px);
+    max-width: var(--445px);
+    font-size: var(--body-m);
+    line-height: var(--28px);
+  }
+  .main__section-info .anchor {
+    width: var(--167px);
+    height: var(--63px);
+  }
+  .main__section-info picture {
+    position: static;
+    width: 50%;
+  }
+  .main__section-info img {
+    width: auto;
+    top: -140px;
+    left: 50%;
+  }
+
+  .main__section-courses {
+    column-gap: 30px;
+    row-gap: var(--80px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .main__section-courses .main__section-courses-popular {
+    padding: var(--64px) 32px 0;
+    border-radius: 15px;
+    font-size: var(--heading-m);
+    line-height: var(--40px);
+  }
+  .main__section-courses div {
+    border-radius: 15px;
+    padding: 0 32px var(--40px);
+  }
+  .main__section-courses h2 {
+    font-size: var(--heading-s);
+    line-height: var(--28px);
+  }
+  .main__section-courses p {
+    color: var(--roman-silver);
+    font-size: var(--body-m);
+    line-height: var(--28px);
+    margin: var(--24px) 0;
+  }
+  .main__section-courses a {
+    font-size: var(--body-m);
+    line-height: var(--28px);
+  }
+
+  footer {
+    padding: var(--32px) 0;
+  }
+  footer div {
+    margin: 0 auto;
+    max-width: var(--1110px);
+  }
+}
